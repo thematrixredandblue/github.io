@@ -1,0 +1,94 @@
+/* ---BODY--- */
+
+body{
+    background-image: url("images/matrix_code2.jpg");
+    background-size: cover;
+}
+
+.green{
+    color: green;
+}
+
+.invis{
+    display: none;
+}
+
+
+/* ---TEXT--- */
+
+h1{
+    text-align: center;
+    color: chartreuse;
+    background-color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0%;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.p1{
+    text-align: center;
+    color: chartreuse;
+    background-color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0%;
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-right: 40%;
+}
+
+h2{
+    text-align: center;
+    color: chartreuse;
+    background-color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0%;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3{
+    text-align: center;
+    color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0%;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* ---IMAGES--- */
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.lol {
+    display: block;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+
+/* ---ANIMATIES--- */
+
+.animatie1 {
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+@keyframes animation{
+    0%{transform: translate(0,0) rotate(0deg); font-size: 12px;}
+    50%{transform: translate(100px,0) rotate(1800deg); font-size: 500px;}
+    80%{transform: translate(100px,0) rotate(1800deg); font-size: 500px;}
+    100%{transform: translate(0,0) rotate(0deg); font-size: 12px;}
+}
+
+
+
+
+
