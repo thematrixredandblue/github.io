@@ -19,11 +19,10 @@
 
 <!-- scene 0 -->    
 
-<!-- 	<audio autoplay>
-	<source src="audio/Music from The Matrix.mp3"
-	</audio> -->
-	<embed src="/audio/Music from The Matrix.mp3" loop="true" autostart="true" width="2"
-         height="0">
+	<audio src="audio/Music from The Matrix.mp3" id="matrix track" loop="loop"></audio>
+	<script type="text/javascript">
+		window.onload=function(){document.getElementById("my_audio").play();}
+	</script>
     <h1>The Matrix: The Game</h1>
     <br><br>
     <p1 class="p1">Choose your character:</p1>
